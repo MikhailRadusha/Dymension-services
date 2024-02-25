@@ -6,7 +6,7 @@
 
 API:          https://api-dymension.stingray.plus  \
 RPC:          https://rpc-dymension.stingray.plus                  `Snapshot-interval = 1000` \
-GRPC:         http://grpc-dymension.stingray.plus:443 
+GRPC:         grpc-dymension.stingray.plus:443 
 
 
 # StateSync Dymension Mainnet
