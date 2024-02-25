@@ -12,7 +12,7 @@ GRPC:         https://grpc-dymension.stingray.plus:443
 # StateSync Dymension Mainnet
 ```python
 systemctl stop dymd
-SNAP_RPC=https://rpc-sei.stingray.plus
+SNAP_RPC=https://rpc-dymension.stingray.plus
 peers="bae333d3ccd605909d00d7d8956db41d3683b329@65.109.88.96:21657"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.dymension/config/config.toml
 
